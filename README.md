@@ -38,7 +38,7 @@ $ sudo usermod -a -G dialout <your username here>
 
 $ curl https://raw.githubusercontent.com/platformio/platformio/develop/scripts/99-platformio-udev.rules  > /etc/udev/rules.d/99-platformio-udev.rules
 
-# After this file is installed, physically unplug and reconnect your board.
+After this file is installed, physically unplug and reconnect your board.
 
 $ sudo service udev restart
 
