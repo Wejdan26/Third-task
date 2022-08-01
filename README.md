@@ -32,7 +32,7 @@ Install PlatformIO
 
 $ sudo python -c "$(curl -fsSL https://raw.githubusercontent.com/platformio/platformio/master/scripts/get-platformio.py)"
 
-# Enable Access to Serial Ports (USB/UART)
+Enable Access to Serial Ports (USB/UART)
 
 $ sudo usermod -a -G dialout <your username here>
 
@@ -48,11 +48,11 @@ $ roscd simple_arm
 
 $ cd ./arm_firmware/
 
-# Find the microcontroller that you have in the list of PlatformIO boards
+Find the microcontroller that you have in the list of PlatformIO boards
 
 $ pio boards | grep -i mega2560
 
-# Use the name of your board to initialize your project
+Use the name of your board to initialize your project
 
 $ pio init --board megaatmega2560
 
